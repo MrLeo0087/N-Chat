@@ -1,0 +1,26 @@
+[project]
+name = "paddleocr-vl-modal"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.128.0",
+    "prometheus-client==0.22.0",
+    "prometheus-fastapi-instrumentator==7.1.0",
+    "pydantic==2.12.5",
+    "pydantic-settings>=2.1.0",
+    "paddlepaddle==3.2.2",
+    "paddleocr==3.3.2",
+    "opencv-python-headless>=4.10.0",
+    "numpy>=1.26.0,<2.0.0",
+    "pillow>=10.0.1",
+    "uvicorn[standard]>=0.40.0",
+    "python-multipart>=0.0.5",
+    "structlog>=23.2.0",
+    "orjson>=3.9.10",
+    "paddlex[ocr]>=3.3.12",
+]
+
+[tool.uv]
+environments = ["sys_platform == 'linux'"]
