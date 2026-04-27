@@ -1,0 +1,18 @@
+[project]
+name = "fine-tune"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jiwer>=4.0.0",
+    "peft>=0.18.1",
+    "pillow>=12.1.1",
+    "requests>=2.32.5",
+    "tqdm>=4.67.3",
+]
+
+[dependency-groups]
+dev = [
+    "autopep8>=2.3.2",
+]

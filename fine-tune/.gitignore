@@ -1,0 +1,21 @@
+.vscode/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data
+data/
+data.zip
+
+scripts/
+test_api.py
+evaluation/
+ocr_dataset.py
